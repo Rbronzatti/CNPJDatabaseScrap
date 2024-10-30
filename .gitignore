@@ -1,0 +1,33 @@
+# Ignore ZIP files in any directory
+*.zip
+
+# Ignore database files in any directory
+*.db
+
+# Ignore all untracked files in the 'output' directory
+output/
+
+# Ignore all untracked files in the 'data' directory
+data/
+
+# Ignore Python cache files
+*.pyc
+__pycache__/
+
+# Ignore system files
+.DS_Store
+
+# Ignore other temporary or log files
+*.log
+*.tmp
+
+# If you have virtual environment folders, ignore them (e.g., 'venv' or 'env')
+venv/
+env/
+
+# Ignore Jupyter Notebook checkpoints if using notebooks
+.ipynb_checkpoints/
+
+# Exclude specific files or directories if needed (uncomment and modify as necessary)
+# !data/important_script.py
+# !output/keep_this_folder/
